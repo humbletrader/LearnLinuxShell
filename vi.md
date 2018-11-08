@@ -16,10 +16,10 @@ h, j, k, l - left , down, up, right
 also the arrow keys should work in vim
 
 ### move by word :
-w - move to the beginning of the next word 
-e - move to the end of the word
-b - move to the beginning of the word
-combinations: 3w 5b - move 5 words back
+* w - move to the beginning of the next word 
+* e - move to the end of the word
+* b - move to the beginning of the word
+* combinations: 3w 5b - move 5 words back
 
 ### move to start or end of a line : 
 0 - move to the start of the line
