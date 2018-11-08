@@ -1,49 +1,50 @@
 # Vi basic commands
-Insert Movde : i
-Normal Mode: ESC
+ Insert Movde : i
+ Normal Mode: ESC
 
-# Basic Commands 
-Save :w
-Quit :q
-Force quit without saving :q!
+## Basic Commands 
+ Save :w
+ Quit :q
+ Force quit without saving :q!
+ Undo : u
+ Redo: CTRL+R
 
-Undo : u
-Redo: CTRL+R
-
-# Cursor Movement
+## Cursor Movement
 
 ### One character at a time: 
-h, j, k, l - left , down, up, right 
+ h, j, k, l - left , down, up, right 
+ also the arrow keys should work in vim
 
-### move one word :
+### move by word :
  w - move to the beginning of the next word 
  e - move to the end of the word
  b - move to the beginning of the word
+ combinations: 3w 5b - move 5 words back
 
 ### move to start or end of a line : 
-0 - move to the start of the line
-$ - move to the end of the line 
+ 0 - move to the start of the line
+ $ - move to the end of the line 
 
 ### move to start of the document
-gg - move to start
-G - move to end 
+ gg - move to start
+ G - move to end 
 
 ### move to a specific line : line-nbr + G
 
 ## Find text
-f - find a character
-find word under cursor - * and #
-n - search text
+ f - find a character
+ find word under cursor - * and #
+ n - search text
 
 ## Basic editing
-0 - insert new line and enter INSERT mode
-O - insert new line above and enter INSERT mode
-p - paste
-d - delete (see combinations) and copies the word/letter to be pasted later 
-R - replace the character under cursor when in NORMAL mode 
-
-Combinations : 
-d2w - deletes 2 words 
+ 0 - insert new line and enter INSERT mode
+ O - insert new line above and enter INSERT mode
+ p - paste
+ x - deletes one char on the right 
+ X - deletes one char on the left
+ r - replaces the character under cursor with a letter while in NORMAL mode 
+ d - delete (see combinations) and copies the word/letter to be pasted later 
+ combinations : d2w deletes two words
 
 ## Visual Mode 
 v - enter visual mode
