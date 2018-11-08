@@ -33,14 +33,14 @@ G - move to end
 line-nbr + G
 
 ## Basic editing
-o - insert new line and enter INSERT mode
-O - insert new line above and enter INSERT mode
-p - paste
-x - deletes one char on the right 
-X - deletes one char on the left
-r - replaces the character under cursor with a letter while in NORMAL mode 
-d - delete (see combinations) and copies the word/letter to be pasted later 
-combinations : d2w deletes two words, d# deletes one line
+* o - insert new line and enter INSERT mode
+* O - insert new line above and enter INSERT mode
+* p - paste
+* x - deletes one char on the right 
+* X - deletes one char on the left
+* r - replaces the character under cursor with a letter while in NORMAL mode 
+* d - delete (see combinations) and copies the word/letter to be pasted later 
+* combinations : d2w deletes two words, d# deletes one line
 
 ## Visual Mode 
 v - enter visual mode
