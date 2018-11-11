@@ -12,14 +12,19 @@
 ## Cursor Movement
 
 ### One character at a time: 
-h, j, k, l - left , down, up, right 
-also the arrow keys should work in vim
+* the arrow keys 
+* h, j, k, l - left, down, up, right 
+* combinations: 
+   * 3h - moves cursor 3 characters on the left
+   * 5j - moves 5 lines down
 
 ### move by word :
 * w - move to the beginning of the next word 
 * e - move to the end of the word
 * b - move to the beginning of the word
-* combinations: 3w 5b - move 5 words back
+* combinations: 
+   * 3w - move cursor after 3 words 
+   * 5b - move 5 words back
 
 ### move to start or end of a line : 
 0 - move to the start of the line
