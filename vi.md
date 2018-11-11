@@ -44,7 +44,12 @@ line-nbr + G
 * D - deletes characters until the end of the line
 * S - deletes a line and enters INSERT mode
 * a - appends text after the cursor
-* combinations : 5x - deletes 5 characters after the cursor, d2w -  deletes two words, 5dd - deletes the next 5 lines
+* combinations : 
+    * 5x - deletes 5 characters after the cursor 
+    * d2w -  deletes two words 
+    * 5dd - deletes the next 5 lines
+    * dgg - deletes everything from cursor to the begining of the file
+    * dG - deletes everything until the end of the file
 
 ## Visual Mode 
 v - enter visual mode
@@ -56,6 +61,15 @@ f - find a character
 find word under cursor - * and #
 n - search text
 
+## Entering INSERT mode 
+* i - classic - isert at the current position
+* I - insert at the beginning of current line
+* a - append after current position
+* A - append at the end of the current line
+* s - substitute for the current character
+* S - substitute for the current line
+
 # Vi tutorials
 * [Interactive vim online](https://www.openvim.com/)
-* [Another tutorial](http://www.washington.edu/computing/unix/vi.html)
+* [tutorial](http://www.washington.edu/computing/unix/vi.html)
+* [tutorial](http://vim.wikia.com/wiki/Tutorial)
