@@ -36,14 +36,14 @@ line-nbr + G
 * o - insert new line and enter INSERT mode
 * O - insert new line above and enter INSERT mode
 * p - paste
-* x - deletes one char on the right 
-* X - deletes one char on the left
+* x - deletes one char after the cursor
+* X - deletes one char before the cursor
 * r - replaces the character under cursor with a letter while in NORMAL mode 
 * d - delete and copies the word/letter/line to be pasted later (so this is actually a cut operation)  
 * dd - deletes (cuts) a line
 * S - deletes a line and enters INSERT mode
-* a - appends text 
-* combinations : d2w deletes two words, 5dd - deletes the next 5 lines
+* a - appends text after the cursor
+* combinations : 5x - deletes 5 characters after the cursor, d2w -  deletes two words, 5dd - deletes the next 5 lines
 
 ## Visual Mode 
 v - enter visual mode
@@ -56,4 +56,5 @@ find word under cursor - * and #
 n - search text
 
 # Vi tutorials
-* Interactive vim online [https://www.openvim.com/]
+* [Interactive vim online](https://www.openvim.com/)
+* [Another tutorial](http://www.washington.edu/computing/unix/vi.html)
