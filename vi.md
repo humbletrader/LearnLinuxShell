@@ -42,6 +42,7 @@ line-nbr + G
 * d - delete and copies the word/letter/line to be pasted later (so this is actually a cut operation)  
 * dd - deletes (cuts) a line
 * S - deletes a line and enters INSERT mode
+* a - appends text 
 * combinations : d2w deletes two words, 5dd - deletes the next 5 lines
 
 ## Visual Mode 
