@@ -33,17 +33,21 @@ G - move to end
 line-nbr + G
 
 ## Basic editing
-* o - insert new line and enter INSERT mode
-* O - insert new line above and enter INSERT mode
+* i - insert characters at the current cursor position (this is also the trigger for INSERT mode)
+* I - insert characters at the beginning of current line (INSERT mode)
+* a - appends text after the cursor (INSERT mode) 
+* A - append text at the end of the current line (INSERT mode)
+* o - insert new line (INSERT mode)
+* O - insert new line above (INSERT mode)
 * p - paste
 * x - deletes one char after the cursor
 * X - deletes one char before the cursor
 * r - replaces the character under cursor with a letter while in NORMAL mode 
+* s - substitute for a character/text (enters INSERT mode)
 * d - delete and copies the word/letter/line to be pasted later (so this is actually a cut operation)  
 * dd - deletes (cuts) a line
 * D - deletes characters until the end of the line
-* S - deletes a line and enters INSERT mode
-* a - appends text after the cursor
+* S - substitude for a line (and enters INSERT mode)
 * combinations : 
     * 5x - deletes 5 characters after the cursor 
     * d2w -  deletes two words 
@@ -57,11 +61,13 @@ move the cursor (which actually selects the text)
 do something with the selection : like d 
 
 ## Find text
+/ - find the specified text
 f - find a character
 find word under cursor - * and #
-n - search text
+n - go to next occurence 
+N - go to previous occurence
 
-## Entering INSERT mode 
+## Entering INSERT mode (all of them mentioned above) 
 * i - classic - isert at the current position
 * I - insert at the beginning of current line
 * a - append after current position
