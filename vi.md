@@ -39,12 +39,13 @@ line-nbr + G
 * x - deletes one char on the right 
 * X - deletes one char on the left
 * r - replaces the character under cursor with a letter while in NORMAL mode 
-* d - delete (see combinations) and copies the word/letter to be pasted later 
-* combinations : d2w deletes two words, d# deletes one line
+* d - delete and copies the word/letter/line to be pasted later (so this is actually a cut operation)  
+* dd - deletes (cuts) a line
+* combinations : d2w deletes two words, d# deletes until the end of the line
 
 ## Visual Mode 
 v - enter visual mode
-move the cursor ( which actually selects the text) 
+move the cursor (which actually selects the text) 
 do something with the selection : like d 
 
 ## Find text
