@@ -41,6 +41,7 @@ line-nbr + G
 * r - replaces the character under cursor with a letter while in NORMAL mode 
 * d - delete and copies the word/letter/line to be pasted later (so this is actually a cut operation)  
 * dd - deletes (cuts) a line
+* D - deletes characters until the end of the line
 * S - deletes a line and enters INSERT mode
 * a - appends text after the cursor
 * combinations : 5x - deletes 5 characters after the cursor, d2w -  deletes two words, 5dd - deletes the next 5 lines
