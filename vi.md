@@ -41,7 +41,8 @@ line-nbr + G
 * r - replaces the character under cursor with a letter while in NORMAL mode 
 * d - delete and copies the word/letter/line to be pasted later (so this is actually a cut operation)  
 * dd - deletes (cuts) a line
-* combinations : d2w deletes two words, d# deletes until the end of the line
+* S - deletes a line and enters INSERT mode
+* combinations : d2w deletes two words, 5dd - deletes the next 5 lines
 
 ## Visual Mode 
 v - enter visual mode
