@@ -1,0 +1,1 @@
+# shortcuts for ranger 
