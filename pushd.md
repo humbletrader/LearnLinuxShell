@@ -21,7 +21,10 @@ dirs -v
  2  ~
  
 ```
-
+# working with indexes in the stack
+pushd +n - shifts the values in the stack by n and navigates to the new location
+pushd -n - shifts the paths in the stack by n ( in reverse order) and navigates tot the new location 
+popd +n - removs the nth item in the stack
 
 
 
