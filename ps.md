@@ -1,4 +1,5 @@
 # ps 
+Show running processes
 ```bash
   ps      # show processes of the current user
   ps -e   # show processes for all users
