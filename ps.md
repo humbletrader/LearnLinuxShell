@@ -14,4 +14,6 @@ Show running processes
 
 # pstree 
 List the threads used by a specific application
+```bash
 pstree -p {pid}
+```
