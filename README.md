@@ -1,2 +1,2 @@
 # LearnLinuxShell
-tutorial for linux shell commands 
+this is an implementation of [The art of command line](https://github.com/jlevy/the-art-of-command-line)
