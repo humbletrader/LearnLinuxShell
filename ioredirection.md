@@ -22,9 +22,21 @@ ls &>> listing.txt appends stdout and stderr to listing.txt
 ```
 
 
+
 # Pipes
 Sends the stdout of first command to the sdtin of the second
-less errors.txt | 
+```bash
+cat errors.txt | grep Exception
+```
+
+# Scripts - redirecting the standard output / error for the whole script
+If you are writing a script and want to redirect data streams without appending the redirect operator or every line
+```
+#!/bin/bash
+# Redirect all stdout to output.txt
+exec 1> output.txt
+# Redirect all stderr to errors.txt
+exec 2> errors.txt
+```
 
 
-# Standard Input / Standar output/ Standard error
