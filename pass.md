@@ -17,3 +17,5 @@ pass -c Email/zx2c4.com # copies the given password to clipboard
 
 
 ```
+
+[official website](https://www.passwordstore.org/)
