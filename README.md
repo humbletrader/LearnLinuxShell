@@ -4,3 +4,4 @@ this is an implementation of [The art of command line](https://github.com/jlevy/
 # Bash Tutorial
 * [bash](./bash.md)
 * [input / output redirection ](./ioredirection.md)
+* [pass](./pass.md)
